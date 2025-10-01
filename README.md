@@ -1,6 +1,6 @@
----
 
-✅ Exercise 1 – Design Patterns
+
+Exercise 1 – Design Patterns
 
 This folder contains six small Java programs that demonstrate different design patterns.  
 Each program is self-contained and can be compiled and run individually.
@@ -13,9 +13,9 @@ Each program is self-contained and can be compiled and run individually.
 - DecoratorDemo.java → Notifications extended with SMS and Email decorators  
 
 Run any of them with:
-
 javac SingletonDemo.java
 java SingletonDemo
+
 Exercise 2 – Satellite Command System
 This is a console-based simulation of a satellite.
 The program manages satellite state and executes commands such as rotating orientation, activating/deactivating solar panels, and collecting data.
@@ -35,22 +35,6 @@ Retry logic in data collection to simulate transient errors
 
 Clear separation of classes (each in its own file for maintainability)
 
-Initial State
-Orientation: North
-
-Solar Panels: Inactive
-
-Data Collected: 0
-
-Example Run
-mathematica
-Copy code
-Satellite Command System started.
-=== Satellite Status ===
-Orientation: North
-Solar Panels: Inactive
-Data Collected: 0
-========================
 
 --- Menu ---
 1. Rotate
@@ -59,21 +43,13 @@ Data Collected: 0
 4. Collect Data
 5. Show Status
 6. Exit
-Enter choice: 1
-Enter direction (North/South/East/West): South
-[2025-09-29 12:30:10] [LOG] Satellite rotated to South
 
-Enter choice: 2
-[2025-09-29 12:30:15] [LOG] Solar panels activated.
-
-Enter choice: 4
-[2025-09-29 12:30:20] [LOG] Data collected. Total = 10
 🛠 How to Run
 Navigate to the folder:
 
 bash
 Copy code
-cd Exercise2_SatelliteSystem
+cd EXERCISE 2
 Compile all .java files:
 
 bash
@@ -108,4 +84,5 @@ Evaluation Criteria Checklist
  Exception handling – custom exception and error handling included
  Logging – timestamped logging in a centralized logger
  Performance – efficient and lightweight
+
  Documentation – this README explains setup, usage, and design
